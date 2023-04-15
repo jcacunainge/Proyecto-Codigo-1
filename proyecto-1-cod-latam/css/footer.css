@@ -1,0 +1,11 @@
+footer {
+    background-color: #af599e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  #descripcion-foter {
+    text-align: center;
+  }
