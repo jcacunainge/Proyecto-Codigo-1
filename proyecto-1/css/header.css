@@ -1,42 +1,58 @@
-header{
+header {
+    position: fixed;
     width: 100%;
+    z-index: 1000;
+    height: 400px;
+    overflow: hidden;
+    text-align:center;
+    line-height: 40px;
+    box-shadow: 1px 5px 8px 1px black;
+
+}
+
+#imagen--logo{
+    width: 300px;
+}
+
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    box-shadow: 3px 2px 5px 2px black;
-    padding: 1rem;
+    padding: .5rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--texto);
-    position: static;
+    color: #0f0f0f;   
 }
     
-#imagen--logo{
-    width: 80%;
-    max-width: 250px;   
-}
+
 nav ul li {
-    margin-top: .5rem;
     font-size: 26px;
 }
 nav ul li:hover{
     transform: scale(1.2);
 }
 
-
 @media only screen and (min-width: 700px){
     header{
+        height: 200px;
+    }
+    .header{
         flex-direction: row;
         justify-content: space-between;
     }
     nav ul {
         display: flex;
-        padding: 2rem;
-        margin-right: 1rem;
+
     }
     nav ul li a {
         margin-right: 2rem;
     }
+}
+
+.content
+{
+height:2000px;
+ /*just to get the page to scroll*/
 }

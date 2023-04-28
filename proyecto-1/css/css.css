@@ -1,0 +1,196 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@400;700&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@400;700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 5px 8px 1px black;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #0f0f0f;   
+}
+    
+#imagen--logo{
+    width: 80%;
+    max-width: 250px;   
+}
+nav ul li {
+    margin-top: .5rem;
+    font-size: 26px;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (min-width: 700px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: flex;
+        padding: 2rem;
+        margin-right: 1rem;
+    }
+    nav ul li a {
+        margin-right: 2rem;
+    }
+} 
+
+/*Main*/
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: wheat;
+}
+#imagen-personal{
+    width: 60%;
+    max-width: 300px;
+    margin: 2rem 0;
+    border-radius: 50%;  
+    animation: scale 2s infinite; 
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#titulo-principal{
+    font-family: 'Lato', sans-serif;
+    color: #0f0f0f;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+#descripcion-quien-soy{
+    margin: 1.5rem 0;
+    width: 90%;
+    max-width: 900px;
+    color: black;
+    font-size: 18px;   
+}
+
+.seccion2{
+    background-color:rgba(175, 89, 158, 0.3);
+    width: 90%;
+    /* max-width: 700px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 5px rgba(0, 0, 0, 0.487);
+}
+
+.seccion2 h2 {
+    margin-bottom: .5rem;
+}
+h2{ 
+    color: rgb(188, 95, 95);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+#seccion2-encabezado{
+    color: tomato;
+}
+.contenedor_lista--funciones{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.contenedor_lista--funciones li:hover{
+    transform: scale(1.03);
+}
+.lista-hablemos{
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1.5rem auto;
+    box-shadow: 3px 2px 5px 5px rgba(0, 0, 0, 0.487);
+}
+
+.seccion3{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.icons{
+    width: 70px;
+    margin-right: 2rem;   
+}
+
+footer {
+    background-color: #af599e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+  
+#descripcion-foter {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 700px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: flex;
+        padding: 2rem;
+        margin-right: 1rem;
+    }
+    nav ul li a {
+        margin-right: 2rem;
+    }
+    /* .lista-hablemos{
+        flex-direction: row;
+        max-width: 400px;
+    } */
+    .contenedor_lista--funciones{
+        flex-direction: row;
+        gap: 5rem;
+    }
+    
+
+}

@@ -9,17 +9,14 @@
 
     <!--Favion-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="./css/seccion1.css">
-    <link rel="stylesheet" href="./css/seccion2.css">
-    <link rel="stylesheet" href="./css/seccion3.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <!-- <link rel="stylesheet" href="./css/header.css"> -->
     <link rel="stylesheet" href="./css/boton.css">
-    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="./index.html"><img id="imagen--logo" src="./img/Logo--Jc.png" alt="Logo Jhan Carlos Acuña"></a>
         <nav>
             <ul>
@@ -31,20 +28,31 @@
     <main>
         <section id="inicio" class="seccion1">
             <img id="imagen-personal" src="./img/foto.jpeg" alt="">
-            <h1 id="titulo-principal">Hola, Soy Jhan Carlos!</h1>
+            <h1 id="myHeading">Hola, soy Jhan Carlos Acuña</h1>
             <p id="descripcion-quien-soy">
                 Soy un ingeniero civil y desarrollador front de 26 años, originario de la ciudad de Palmar de Varela. Un apasionado del mundo de la programación y quien ha dedicado una gran cantidad de tiempo y esfuerzo para desarrollar sus habilidades en esta área. He completado una variedad de cursos en línea y presenciales para mejorar mis conocimiento en programación y tecnología. Además de mi trabajo como ingeniero civil, creo que la tecnología tiene el poder de transformar el mundo y hacerlo un lugar mejor para todos, y me siento motivado para ser parte de ese cambio. En mi tiempo libre, me gusta explorar nuevas tecnologías y lenguajes de programación, y compartir mis conocimiento con otros. Soy conocido por ser un individuo amable y colaborador, siempre dispuesto a ayudar a sus colegas y amigos, además soy apasionado, perseverante y orientado a los resultados, lo que me convierte en un valioso miembro de cualquier equipo en el que trabaje.
             </p>
             <button id="btn">Descargar CV</button>
         </section>
         <section class="seccion2">
-            <h2>Hablemos!</h2>
-            <ul>
-                <li>Creación de productos utilizando HTML y CSS.</li>
-                <li>Codificar e implementar aplicaciones web multiplataforma.</li>
-                <li>Crear interfaces de usuario y prototipos a partir de wireframes y diseño <li>
-                <li>Actualizar sitios web actuales.</li>              
-            </ul>
+            <h2>Hablemos, <span id="seccion2-encabezado">te puedo ayudar!</span></h2>
+            <div class="contenedor_lista--funciones">
+                <ul class="lista-hablemos">
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Mantenimiento y actualización de código.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Resolución de problemas de compatibilidad.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Colaboración con equipos de backend y diseño.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Depuración y resolución de problemas de código.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Integración de servicios y APIs.</li>
+                    
+                </ul>
+                <ul class="lista-hablemos">
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Desarrollo de la interfaz de usuario.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Implementación de diseños.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Implementación de diseños responsivos.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Desarrollo de animaciones y efectos visuales.</li>
+                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Optimización para motores de búsqueda (SEO).</li>
+                </ul>
+            </div>
         </section>
         <section id="contacto" class="seccion3">
             <a href="mailto:jcacunainge@gmail.com">
