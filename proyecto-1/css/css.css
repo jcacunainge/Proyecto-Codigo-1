@@ -1,11 +1,4 @@
-/* En este archivo escriban su CSS */
-
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@400;700&display=swap');
-
-/*
-font-family: 'Lato', sans-serif;
-*/
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -15,49 +8,47 @@ font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:wght@400;700&display=swap');
-
 header{
+    background-color: #fbfbfb;
+    height: 220px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     justify-content: center;
-    box-shadow: 1px 5px 8px 1px black;
-    padding: 1rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #0f0f0f;   
-}
     
-#imagen--logo{
-    width: 80%;
-    max-width: 250px;   
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .1rem 1rem 0 rgba(0, 0, 0, .2);
+}
+nav {
+    display: flex;
+    justify-content: center;
+      
+}
+nav ul {
+    display: flex;
 }
 nav ul li {
-    margin-top: .5rem;
-    font-size: 26px;
+    padding: 1rem;
+    color: #0f0f0f;
+    margin-bottom: 2rem;
 }
-nav ul li:hover{
+nav ul li:hover {
     transform: scale(1.2);
 }
+nav ul li a {
+    color: #0f0f0f;
+    font-size: 18px;
+    text-align: center;
+    
+}
 
-@media only screen and (min-width: 700px){
-    header{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    nav ul {
-        display: flex;
-        padding: 2rem;
-        margin-right: 1rem;
-    }
-    nav ul li a {
-        margin-right: 2rem;
-    }
-} 
+#imagen--logo{
+    width: 60%;
+    max-width: 300px;
+    
+}
 
-/*Main*/
 .seccion1{
     display: flex;
     flex-direction: column;
@@ -69,28 +60,16 @@ nav ul li:hover{
 #imagen-personal{
     width: 60%;
     max-width: 300px;
-    margin: 2rem 0;
+    margin: 15rem 0 0;
     border-radius: 50%;  
-    animation: scale 2s infinite; 
+
 }
 
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-#titulo-principal{
+.titulo-principal{
     font-family: 'Lato', sans-serif;
     color: #0f0f0f;
     font-size: 30px;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 #descripcion-quien-soy{
@@ -104,8 +83,8 @@ nav ul li:hover{
 .seccion2{
     background-color:rgba(175, 89, 158, 0.3);
     width: 90%;
-    /* max-width: 700px; */
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 3rem auto;
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
@@ -115,7 +94,8 @@ nav ul li:hover{
 .seccion2 h2 {
     margin-bottom: .5rem;
 }
-h2{ 
+
+h2 { 
     color: rgb(188, 95, 95);
     font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
@@ -167,26 +147,26 @@ footer {
   
 #descripcion-foter {
     text-align: center;
-}
+} 
 
 
 @media only screen and (min-width: 700px){
     header{
+        height: 120px;
         flex-direction: row;
         justify-content: space-between;
     }
     nav ul {
         display: flex;
         padding: 2rem;
-        margin-right: 1rem;
+        margin: 2rem;
     }
-    nav ul li a {
-        margin-right: 2rem;
-    }
-    /* .lista-hablemos{
+ 
+    
+    .lista-hablemos{
         flex-direction: row;
         max-width: 400px;
-    } */
+    }
     .contenedor_lista--funciones{
         flex-direction: row;
         gap: 5rem;
