@@ -9,10 +9,12 @@
 
     <!--Favion-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    
+    <!-- Iconos -->
+    <link rel="stylesheet" href="boxicons.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/css.css">
-    <!-- <link rel="stylesheet" href="./css/header.css"> -->
+    <link rel="stylesheet" href="./css/tarjetas.css">
     <link rel="stylesheet" href="./css/boton.css">
 </head>
 <body>
@@ -23,6 +25,8 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#inicio">Skils</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>           
@@ -31,31 +35,181 @@
     <main >
         <section id="inicio" class="seccion1">
             <img id="imagen-personal" src="./img/foto.jpeg" alt="">
-            <h1 class="titulo-principal">Hola, soy Jhan Carlos Acuña</h1>
+            <h1 id="titulo" class="titulo-principal">Hola, soy Jhan Carlos Acuña <br> Desarrollador front End</h1>
             <p id="descripcion-quien-soy">
                 Soy un ingeniero civil y desarrollador front de 26 años, originario de la ciudad de Palmar de Varela. Un apasionado del mundo de la programación y quien ha dedicado una gran cantidad de tiempo y esfuerzo para desarrollar sus habilidades en esta área. He completado una variedad de cursos en línea y presenciales para mejorar mis conocimiento en programación y tecnología. Además de mi trabajo como ingeniero civil, creo que la tecnología tiene el poder de transformar el mundo y hacerlo un lugar mejor para todos, y me siento motivado para ser parte de ese cambio. En mi tiempo libre, me gusta explorar nuevas tecnologías y lenguajes de programación, y compartir mis conocimiento con otros. Soy conocido por ser un individuo amable y colaborador, siempre dispuesto a ayudar a sus colegas y amigos, además soy apasionado, perseverante y orientado a los resultados, lo que me convierte en un valioso miembro de cualquier equipo en el que trabaje.
             </p>
             <button id="btn">Descargar CV</button>
         </section>
-        <section class="seccion2">
+        <!-- <section class="seccion2">
             <h2>Hablemos, <span id="seccion2-encabezado">te puedo ayudar!</span></h2>
             <div class="contenedor_lista--funciones">
                 <ul class="lista-hablemos">
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Mantenimiento y actualización de código.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Resolución de problemas de compatibilidad.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Colaboración con equipos de backend y diseño.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Depuración y resolución de problemas de código.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Integración de servicios y APIs.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Mantenimiento y actualización de código.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Resolución de problemas de compatibilidad.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Colaboración con equipos de backend y diseño.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Depuración y resolución de problemas de código.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Integración de servicios y APIs.</li>
                     
                 </ul>
                 <ul class="lista-hablemos">
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Desarrollo de la interfaz de usuario.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Implementación de diseños.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Implementación de diseños responsivos.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Desarrollo de animaciones y efectos visuales.</li>
-                    <li> <span><img src="./img/correcto.png" alt="" width="20px"></span> Optimización para motores de búsqueda (SEO).</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Desarrollo de la interfaz de usuario.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Implementación de diseños.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Implementación de diseños responsivos.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Desarrollo de animaciones y efectos visuales.</li>
+                    <li> <span><img src="./img/correcto.png"  class="check" alt="" width="20px"></span> Optimización para motores de búsqueda (SEO).</li>
                 </ul>
             </div>
+        </section> -->
+        <div class="contenedor__seccion2">
+            <div class="contenedores--tarjetas">                
+                <img class="icons--tarjeta" src="./img/imgDiseños/FrontEnd.png" alt="icons Front-End" width="100px" height="100px">
+                <h3 class="titulo--tarjeta">Front-End</h3>
+                <div class="separador"></div>
+                <div class="contenedorSeccion2">
+                    <h3 class="especificacion">Algo de lo que sé hacer</h3>
+                    <div class="contenedor__principa">                        
+                        <div class="contenedor__listas">
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Ocuparme de los componentes externos del sitio o app web.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Traducir diseños a lenguaje de programación.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Desarrollar la parte visual y estructura de un site web.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Mantener y optimizar sitios web e interfaces de usuario.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Facilitar la navegación del usuario y mejorar la usabilidad.</p>
+                            </div>
+                        </div>                
+                    </div>               
+                </div>             
+            </div>  
+            <div class="contenedores--tarjetas">
+                <img class="icons--tarjeta" src="./img/imgDiseños/20945347.png" alt="icons Front-End" width="100px" height="100px">
+                <h3 class="titulo--tarjeta">Backend</h3>
+                <div class="separador"></div>
+                <div class="contenedorSeccion2">
+                    <h3 class="especificacion">Algo de lo que sé hacer</h3>
+                    <div class="contenedor__principa">
+                        <div class="contenedor__listas">
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Implementar la interacción entre el usuario y el sitio web.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Aplicar acciones de lógica.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Escribir consultas para acceder a los datos guardados.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Realizar la conexión con bases de datos.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Mejorar las funcionalidades del front-end.</p>
+                            </div>
+                        </div>                                                
+                    </div>                   
+                </div>   
+            </div>
+            <div class="contenedores--tarjetas">                
+                <img class="icons--tarjeta" src="./img/imgDiseños/BasesDatos.png" alt="icons Front-End" width="100px" height="100px">
+                <h3 class="titulo--tarjeta">Bases de datos</h3>
+                <div class="separador"></div>
+                <div class="contenedorSeccion2">
+                    <h3 class="especificacion">Algo de lo que sé hacer</h3>
+                    <div class="contenedor__principa">
+                        <div class="contenedor__listas">
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Utilizar SQL para extraer y analizar datos de bases de datos.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Crear y desarrollar bases de datos.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Realizar la conexión con bases de datos.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Garantizar manteniendo de las bases de datos.</p>
+                            </div>
+                            <div class="itemsListas">
+                                <img src="./img/correcto.png"  class="check" width="20px" alt="">
+                                <p class="itemsTexto">Optimización de las bases de datos.</p>
+                            </div>
+                        </div>                                                   
+                    </div>                   
+                </div>
+            </div>
+        </div>
+        <section>
+            <h2>Habilidades técnicas</h2>
+            <div class="separador-titulos"></div>
+            <div class="contenedor-general-icons">
+                <div class="contenedor-icons">
+                    <box-icon name='html5' type='logo' size="100px" ></box-icon>
+                    <p class="descripcion-icons">HTML</p>
+                </div>
+                <!-- <div class="contenedor-barras">
+                    <div class="barra1"></div>
+                    <div class="barra2"></div>
+                    <div class="barra3"></div>
+                    <div class="barra4"></div>
+                    <div class="barra5"></div>
+                </div> -->
+                <div class="contenedor-icons">
+                    <box-icon type='logo' name='css3' size="100px"></box-icon>
+                    <p class="descripcion-icons">CSS</p>
+                </div>
+                <div class="contenedor-icons">
+                    <box-icon type='logo' name='javascript' size="100px"></box-icon>
+                    <p class="descripcion-icons">Javascript</p>
+                </div>
+                <div class="contenedor-icons">
+                    <box-icon name='angular' type='logo'size="100px" ></box-icon>
+                    <p class="descripcion-icons">Angular</p>
+                </div>
+                <div class="contenedor-icons">
+                    <box-icon name='python' type='logo' size="100px"></box-icon>
+                    <p class="descripcion-icons">Python</p>
+                </div>
+                <div class="contenedor-icons">
+                    <img src="./img/mysql.jpg" alt="" style="width: 100px;">
+                    <p class="descripcion-icons">MySQL</p>
+                </div>
+                <div class="contenedor-icons">
+                    <box-icon name='postgresql' type='logo' size="100px" ></box-icon>
+                    <p class="descripcion-icons">PostgreSQL</p>
+                </div>
+                <div class="contenedor-icons">
+                    <box-icon name='github' type='logo'size="100px" >
+                        <i class='bx bxl-github' ></i>
+                    </box-icon>
+                    <p class="descripcion-icons">Git and Github</p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <h2>Proyectos</h2>
+            <div class="separador-titulos"></div>
         </section>
         <section id="contacto" class="seccion3">
             <a href="mailto:jcacunainge@gmail.com">
@@ -75,5 +229,8 @@
     </footer>
 
     <script src="./script/script.js"></script>
+    <script src="./script/animaciónTitulo.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+
 </body>
 </html>
