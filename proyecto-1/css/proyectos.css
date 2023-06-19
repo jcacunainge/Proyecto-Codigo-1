@@ -1,0 +1,26 @@
+.proyectos{
+    background-color: black;
+    color: white;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin: 4rem auto;
+    position: relative;
+
+}
+.contenedor-proyecto{
+    background-color: white;
+    position: absolute;
+    color: black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+}
+.img-proyecto{
+    width: 70px;
+    height: 70px;
+}

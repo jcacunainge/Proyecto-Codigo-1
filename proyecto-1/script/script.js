@@ -21,3 +21,21 @@ openButton.addEventListener("click", function() { // Se agrega un Event Listener
 });
 
 
+//Apartado para cambiar la imagen en diferentes tamaaños de pantallas
+// Función para cambiar la imagen en función del tamaño de la pantalla
+function cambiarImagen() {
+  var anchoPantalla = window.innerWidth;
+  var imagen = document.getElementById('imagen-personal');
+  
+  if (anchoPantalla < 768) {
+    imagen.src = './img/foto.jpeg';
+  } else {
+    imagen.src = './img/img-personal.png';
+  }
+}
+
+// Llamada inicial a la función para establecer la imagen correcta
+cambiarImagen();
+// Evento que se dispara cuando el tamaño de la pantalla cambia
+window.addEventListener('resize', cambiarImagen);
+

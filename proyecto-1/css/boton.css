@@ -1,5 +1,5 @@
 button {
-    --color: #af599e;
+    --color: red;
     font-family: inherit;
     display: inline-block;
     width: 7em;
@@ -12,13 +12,12 @@ button {
     color: var(--color);
     border: 2px solid var(--color);
     border-radius: 6px;
-    
   }
   
  
 
   button:hover {
-    color: white;
+    color: black;
   }
   
  

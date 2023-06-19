@@ -16,17 +16,3 @@ let proyectos = [
 
 ]
 
-function crearCardProyecto(){
-    let imagenProyecto = document.createElement("img");
-    imagenProyecto.src = proyectos.imagen;
-
-    let tituloProyecto = document.createElement("h3");
-    tituloProyecto.innerHTML = proyectos.tituloProyecto;
-
-    let descripcionProyecto = document.createElement("p");
-    descripcionProyecto.innerHTML = proyectos.descripcionProyecto;
-
-    let deploy = document.createElement("a")
-
-
-}

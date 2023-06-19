@@ -1,82 +1,45 @@
-.contenedor__seccion2{
-    display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center;   
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Quicksand&display=swap');
+.card{
+  width: 950%;
+  padding: 3rem;
+  background-color: rgba(0,0,0,0.7595413165266106);
 }
 
-.contenedores--tarjetas{
-    width: 90%;
-    max-width: 500px;
-    margin: 1rem auto;
-    height: 200px;
-    box-shadow: 1px 3px 5px 4px rgb(80, 77, 77);  
-    border: 1px solid rgb(109, 52, 52);
-    text-align: center;
-}
- 
-.icons--tarjeta{
-    margin: 1rem 0;
-    width: 70%;
-    max-width: 500px;
-}
-.titulo--tarjeta{
-    text-align: center;
-    font-size: 1.8rem;
-}
-.especificacion{
-    font-family: 'Source Code Pro', monospace; 
-    text-align: center;
-    font-size: 1.2rem;
-}
-.descripcion--tarjetas{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+.contenedor-servicios-card {
+  width: 95%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.8rem;
+  margin: 1rem auto;
+  color: whitesmoke;
+   
 }
 
-.contenedorSeccion2{
-    display: flex;
-    flex-direction: column;
+.img-servicio {
+  margin-bottom: 7px;
+  width: 100px;
+  
 }
 
-.contenedor__listas{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    text-align: left;
+.titulo-servicio {
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 7px;
 }
 
-.itemsListas{
-    display: flex;
-    margin: 1rem 0;
-}
-.check{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.itemsTexto{
-    color: black;
-    margin-top: 6px;
-    margin-right: 5px;
+.descripcion-servicio {
 }
 
-@media only screen and (min-width: 900px) {
-    .contenedor__seccion2{
-        flex-direction: row; 
+@media only screen and (min-width: 768px) {
+    .card{
+        display: flex;
         flex-wrap: wrap;
-    }
-    .contenedores--tarjetas{
-        max-width: 390px;
-        height: 465px;
-    }
-    .titulo--tarjeta{
-        font-size: 1.6rem;
-    }
-    .icons--tarjeta{
-        max-width: 400px;
-    }
-    .contenedor__listas{
-        font-size: 0.8rem;
-
+        margin: 0 auto;
+        gap: 30px;
+        width: 100%;
     }
 
 }
