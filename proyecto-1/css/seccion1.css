@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Quicksand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 .seccion1{
     background-color: rgba(0,0,0,0.7595413165266106);
@@ -19,42 +19,48 @@
 }
 
 #imagen-personal{
-    width: 60%;
-    max-width: 300px;
-    margin: 1rem 0 1rem;
-    border-radius: 50%;  
+    width: 90%;
+    max-width: 450px;
+    border-radius: 30%;
+    border-bottom: 4px solid red;
 }
 
 .titulo-principal{
     font-size: 2.4rem;
     margin: .5rem 0;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+.titulo-secundario{
+    font-size: 1.8rem;
 }
 
 .descripcion-quien-soy{
     margin-top: 1rem;
     width: 90%;
     font-size: 18px;   
-
-
+    font-family: 'Inter', sans-serif;
 }
 
 @media only screen and (min-width: 768px){
-    .seccion1{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .contenedor-quiensoy{
-        margin-left: 15rem;
 
-    }
-    #imagen-personal{
-        max-width: 500px;
-        border-radius: 30%;
-        border-bottom: 4px solid red;
-    }
 
     .contenedorBtn{
         display: flex;
     }
+}
+
+@media only screen and (min-width: 968px){
+        .seccion1{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contenedor-quiensoy{
+        
+    }
+    #imagen-personal{
+        width: 70%;
+
+        
+    }
+
 }

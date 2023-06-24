@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 .card{
-  width: 950%;
-  padding: 3rem;
+  width: 100%;
+  padding: 1.5rem;
   background-color: rgba(0,0,0,0.7595413165266106);
 }
 
 .contenedor-servicios-card {
   width: 95%;
-  max-width: 400px;
+  max-width: 350px;
   display: flex;
   flex-direction: column;  
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 0.8rem;
-  margin: 1rem auto;
+  margin: .5rem auto;
   color: whitesmoke;
-   
+  border-bottom: 1.5px solid red;
 }
 
 .img-servicio {
   margin-bottom: 7px;
   width: 100px;
-  
 }
 
 .titulo-servicio {
@@ -31,6 +31,7 @@
 }
 
 .descripcion-servicio {
+  font-family: 'Inter', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
