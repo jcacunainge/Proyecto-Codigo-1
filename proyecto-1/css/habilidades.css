@@ -2,9 +2,6 @@
 
 .contenedor-habilidades-tecnicas{
     background-color: rgba(0,0,0,0.7595413165266106);
-}
-
-.contenedor-habilidades-tecnicas{
     padding: 3rem;
 }
 
@@ -28,11 +25,10 @@
     width: 100%;
     max-width: 280px;
     padding: .2rem;
+    margin-bottom: 1rem;
 }
 
-.contenedor-icons:hover{
-    border: 1px solid red;
-}
+
 
 .img-icons{
     margin-top: .5rem;
@@ -42,6 +38,7 @@
 
 .icons{
     animation: icon-animation 2s infinite;
+
 }
 @keyframes icon-animation {
     0% {
@@ -68,6 +65,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: flex-start;
+        padding: 6rem;
     }
         
     .contenedor-icons {
