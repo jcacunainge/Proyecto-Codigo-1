@@ -7,17 +7,17 @@ button {
     display: inline-block;
     width: 9em;
     height: 2.6em;
-    line-height: 2.5em;
-    margin: 40px 20px 25px;
+    line-height: 1.5em;
+    margin: 30px 20px 0;
     font-size: 17px;
     color: var(--color);
     border: none;
-    box-shadow: 0 0 19px rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 59px rgba(255, 0, 0, 0.5);
     border-radius: 6px;
     font-family: 'Kanit', sans-serif;
   }
   
- 
+
 
   button:hover {
     color: black;

@@ -19,19 +19,19 @@
 }
 
 #imagen-personal{
-    width: 90%;
+    width: 80%;
     max-width: 450px;
     border-radius: 30%;
     border-bottom: 4px solid red;
 }
 
 .titulo-principal{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin: .5rem 0;
     font-family: 'Inter', sans-serif;
 }
 .titulo-secundario{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .descripcion-quien-soy{
@@ -42,8 +42,6 @@
 }
 
 @media only screen and (min-width: 768px){
-
-
     .contenedorBtn{
         display: flex;
     }
@@ -54,9 +52,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .contenedor-quiensoy{
-        
-    }
+
     #imagen-personal{
         width: 70%;
 

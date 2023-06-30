@@ -43,29 +43,6 @@
 }
 
 
-.contenedor-proyecto::before,
-.contenedor-proyecto::after {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-color: transparent;
-  transition: all 3s ease;
-}
-
-.contenedor-proyecto:hover::before {
-  border-width: 2px 2px 0 0;
-  border-right-color: rgb(195, 37, 37);
-}
-
-.contenedor-proyecto:hover::after {
-  border-width: 0 2px 2px 0;
-  border-bottom-color: rgb(195, 37, 37);
-}
-
-.contenedor-proyecto:hover {
-  border: 2px solid rgb(195, 37, 37);
-}
-
 @media only screen and (min-width: 760px){
   .contenedor-proyectos-general{
     display: flex;

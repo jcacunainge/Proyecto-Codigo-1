@@ -9,9 +9,7 @@
 }
 
 
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     scroll-behavior: smooth;
 }
@@ -25,6 +23,9 @@ h2{
     color: whitesmoke;
     font-size: 2rem;
 
+}
+.seccion1-seccion2{
+    margin-bottom: 2rem;
 }
 .seccion-titulo-separador{
     background-color: rgba(0,0,0,0.7595413165266106);

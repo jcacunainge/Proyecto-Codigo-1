@@ -2,7 +2,7 @@
 
 .contenedor-habilidades-tecnicas{
     background-color: rgba(0,0,0,0.7595413165266106);
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .contenedor-general-icons{
@@ -65,12 +65,12 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: flex-start;
-        padding: 6rem;
+        padding: 3rem;
     }
         
     .contenedor-icons {
         width: calc(50% - 1rem);
-        margin-bottom: 1rem;
+        margin-right: 10px;
     }
 
 }
